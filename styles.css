@@ -1,0 +1,44 @@
+:root{
+    --bg-color:#ffffff;
+    --text-color:#000000;
+    --header-bg:#f0f0f0;
+    --button-bg:#007bff;
+    --button-text:#ffffff;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.5s ease,color 0.5s ease;
+}
+
+header{
+    background-color: var(--header-bg);
+    padding: 20px;
+    text-align: center;    
+}
+
+button{
+    padding: 10px 20px;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+
+    background-color: #0056b3;
+}
+
+/*Dark Theme*/
+
+body.dark-theme{
+     --bg-color: #1e1e1e;
+     --text-color: #f0f0f0;
+     --header-bg: #333333;
+     --button-bg: #ff4081;
+     --button-text:#000000;
+}
